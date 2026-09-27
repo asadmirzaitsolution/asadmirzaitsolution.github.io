@@ -18,7 +18,170 @@
 <section id="home" class="hero"><div><small>PROFESSIONAL IT • CCTV • NETWORKING</small><h1>Smart Technology.<br><span>Reliable Solutions.</span></h1><p>Professional CCTV, networking, IT repair, installation and technical support.</p><a class="btn" href="https://wa.me/923274978570" target="_blank">WhatsApp 0327 4978570</a></div><div class="visual">◉<strong>IT • CCTV • NETWORK</strong><small>Design · Installation · Configuration · Repair</small></div></section>
 <section id="about"><small>ABOUT US</small><h2>Asad Mirza IT Solution</h2><p>Professional technology services based in Sheikhupura, Punjab, Pakistan, for homes, offices and businesses.</p></section>
 <section id="skills" class="dark"><small>MY SKILLS</small><h2>Technical Skills</h2><div class="grid"><article><h3>CCTV Systems</h3><p>Hikvision, Imou, PTZ, DVR/NVR and IP cameras.</p></article><article><h3>Networking</h3><p>CCNA, LAN/WAN, routers and structured cabling.</p></article><article><h3>IT Support</h3><p>IT repairs, system design, configuration and troubleshooting.</p></article><article><h3>Installation</h3><p>CCTV design, installation, repair and maintenance.</p></article></div></section>
-<section id="services">
+<section id="services" class="services-section">
+  <small>SERVICES</small>
+  <h2>What We Do</h2>
+
+  <div class="services-grid">
+
+    <!-- CCTV -->
+    <article class="service-card">
+      <div class="service-icon">📹</div>
+      <h3>CCTV Installation</h3>
+      <p>Professional CCTV camera installation and security solutions.</p>
+
+      <ul>
+        <li>DVR / NVR Setup</li>
+        <li>IP & Analog Cameras</li>
+        <li>Wireless Cameras</li>
+        <li>Remote Viewing</li>
+        <li>Maintenance & Support</li>
+      </ul>
+
+      <div class="service-images">
+        <img src="img1.png" alt="CCTV Camera">
+        <img src="img2.png" alt="NVR System">
+      </div>
+    </article>
+
+    <!-- NETWORK -->
+    <article class="service-card">
+      <div class="service-icon">🌐</div>
+      <h3>Network Solutions</h3>
+      <p>Complete networking solutions for homes, offices and businesses.</p>
+
+      <ul>
+        <li>LAN / WAN Setup</li>
+        <li>Wi-Fi & Router Configuration</li>
+        <li>Network Cabling</li>
+        <li>Wireless Network Setup</li>
+        <li>Troubleshooting</li>
+      </ul>
+
+      <div class="network-picture">
+        📡
+      </div>
+    </article>
+
+    <!-- IT SUPPORT -->
+    <article class="service-card">
+      <div class="service-icon">🛠️</div>
+      <h3>IT Repair & Support</h3>
+      <p>Professional computer and IT support for home and business users.</p>
+
+      <ul>
+        <li>PC & Laptop Repair</li>
+        <li>Windows Installation</li>
+        <li>Software Installation</li>
+        <li>Hardware Upgrade</li>
+        <li>Technical Support</li>
+      </ul>
+
+      <div class="network-picture">
+        💻
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<style>
+.services-section {
+  background: #061b38;
+  padding: 70px 7%;
+  color: white;
+  text-align: center;
+}
+
+.services-section small {
+  color: #1683ff;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.services-section h2 {
+  font-size: 42px;
+  margin: 10px 0 40px;
+  color: white;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.service-card {
+  background: #0d315c;
+  border: 1px solid #24588d;
+  border-radius: 18px;
+  padding: 28px;
+  text-align: left;
+  box-shadow: 0 10px 30px rgba(0,0,0,.25);
+}
+
+.service-icon {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+.service-card h3 {
+  font-size: 24px;
+  margin: 5px 0 12px;
+  color: white;
+}
+
+.service-card p {
+  color: #d9e7f7;
+  line-height: 1.6;
+}
+
+.service-card ul {
+  padding-left: 20px;
+  color: white;
+  line-height: 1.9;
+}
+
+.service-card li::marker {
+  color: #1683ff;
+}
+
+.service-images {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.service-images img {
+  width: 48%;
+  height: 110px;
+  object-fit: contain;
+  background: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.network-picture {
+  font-size: 100px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .services-section h2 {
+    font-size: 34px;
+  }
+}
+</style>
   <small>SERVICES</small>
   <h2>What We Do</h2>
 
