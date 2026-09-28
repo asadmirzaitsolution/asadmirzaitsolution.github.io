@@ -457,7 +457,156 @@ footer{
         font-size:29px;
     }
 }
-</style>
+/* ===== MOBILE CENTER FIX ===== */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 92% !important;
+  max-width: 1180px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Header */
+nav {
+  width: 100% !important;
+}
+
+.nav-inner {
+  width: 92% !important;
+  margin: 0 auto !important;
+}
+
+/* Logo */
+.logo {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.logo img {
+  width: 120px !important;
+  height: auto !important;
+  display: block !important;
+}
+
+/* Menu */
+.menu {
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+}
+
+/* Hero */
+.hero {
+  width: 100% !important;
+}
+
+.hero-inner {
+  width: 92% !important;
+  margin: 0 auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.hero-copy {
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.hero-art {
+  margin: 20px auto !important;
+}
+
+/* About */
+.about-grid {
+  width: 92% !important;
+  margin: 0 auto !important;
+}
+
+/* Cards */
+.cards {
+  width: 92% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Certificates */
+.certificates,
+.cert-grid {
+  width: 92% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Sections */
+section {
+  width: 100% !important;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+
+  .container {
+    width: 92% !important;
+  }
+
+  .nav-inner {
+    width: 92% !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+
+  .logo img {
+    width: 110px !important;
+  }
+
+  .menu {
+    width: 100% !important;
+    justify-content: center !important;
+    gap: 10px !important;
+  }
+
+  .menu a {
+    font-size: 12px !important;
+  }
+
+  .hero-inner {
+    width: 92% !important;
+  }
+
+  .hero-copy {
+    text-align: center !important;
+  }
+
+  .hero h1 {
+    font-size: 34px !important;
+  }
+
+  .about-grid {
+    width: 92% !important;
+    grid-template-columns: 1fr !important;
+    text-align: center !important;
+  }
+
+  .cards {
+    width: 92% !important;
+    grid-template-columns: 1fr !important;
+  }
+
+}</style>
 </head>
 
 <body>
