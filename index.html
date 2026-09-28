@@ -1,207 +1,170 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asad Mirza IT Solution</title>
 
-<title>Asad Mirza IT Solution | IT, CCTV & Network Services</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
 
-<meta name="description" content="Asad Mirza IT Solution provides professional IT, CCTV, networking, computer repair and technical services in Sheikhupura, Punjab, Pakistan.">
+    body {
+      background: #07111f;
+      color: white;
+      text-align: center;
+    }
 
-<meta name="keywords" content="Asad Mirza IT Solution, IT services, CCTV installation, network services, computer repair, Sheikhupura, Pakistan">
+    header {
+      padding: 35px 20px;
+      border-bottom: 2px solid #00aaff;
+      background: linear-gradient(135deg, #06101d, #0b2945);
+    }
 
-<meta name="author" content="Asad Mirza IT Solution">
-<meta name="robots" content="index, follow">
+    .profile {
+      width: 170px;
+      height: 170px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #00aaff;
+      box-shadow: 0 0 25px #00aaff;
+      margin-bottom: 20px;
+    }
 
-<meta property="og:title" content="Asad Mirza IT Solution | IT, CCTV & Network Services">
-<meta property="og:description" content="Professional IT, CCTV, networking, computer repair and technical services in Sheikhupura, Punjab, Pakistan.">
-<meta property="og:type" content="website">
+    h1 {
+      color: #00c8ff;
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
 
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
+    .tagline {
+      color: #ddd;
+      font-size: 18px;
+    }
 
-html{scroll-behavior:smooth}
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
 
-body{
-font-family:Arial,Helvetica,sans-serif;
-color:#102542;
-background:#fff;
-line-height:1.6
-}
+    h2 {
+      color: #00c8ff;
+      margin-bottom: 25px;
+    }
 
-a{text-decoration:none;color:inherit}
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
 
-.container{
-width:min(1120px,92%);
-margin:auto
-}
+    .card {
+      background: #0d2034;
+      padding: 25px;
+      border: 1px solid #008dcc;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,170,255,0.25);
+    }
 
-/* NAVBAR */
-nav{
-position:sticky;
-top:0;
-z-index:20;
-background:#fff;
-border-bottom:1px solid #e5edf5
-}
+    .card h3 {
+      color: #00c8ff;
+      margin-bottom: 10px;
+    }
 
-.nav-inner{
-height:70px;
-display:flex;
-align-items:center;
-justify-content:space-between
-}
+    .contact {
+      background: #0b2945;
+      border-top: 2px solid #00aaff;
+      padding: 35px 20px;
+    }
 
-.logo{
-font-size:21px;
-font-weight:800;
-color:#102f55
-}
+    .whatsapp {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 13px 25px;
+      background: #19b95a;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
 
-.logo span{color:#1683e8}
+    footer {
+      padding: 20px;
+      color: #aaa;
+      font-size: 14px;
+    }
+  </style>
+</head>
 
-.menu{
-display:flex;
-gap:30px;
-font-size:14px;
-font-weight:700
-}
+<body>
 
-.menu a:hover{color:#1683e8}
+  <header>
 
-/* HERO */
-.hero{
-background:linear-gradient(115deg,#031b3d,#063b72 65%,#07549b);
-color:#fff
-}
+    <!-- APNI PICTURE YAHAN SHOW HOGI -->
+    <img src="asad.jpg" alt="Asad Mirza" class="profile">
 
-.hero-inner{
-min-height:410px;
-display:flex;
-align-items:center;
-justify-content:space-between;
-gap:40px;
-padding:55px 0
-}
+    <h1>Asad Mirza IT Solution</h1>
+    <p class="tagline">
+      IT Services • CCTV • Networking • Computer Solutions
+    </p>
 
-.hero-copy{max-width:590px}
+  </header>
 
-.eyebrow{
-color:#20a4ff;
-letter-spacing:2px;
-font-size:13px;
-font-weight:800;
-margin-bottom:12px
-}
+  <section>
+    <h2>MY SKILLS</h2>
 
-.hero h1{
-font-size:50px;
-line-height:1.08;
-margin-bottom:18px
-}
+    <div class="skills">
 
-.hero p{
-font-size:18px;
-color:#e4effb;
-max-width:560px;
-margin-bottom:28px
-}
+      <div class="card">
+        <h3>CCTV Installation</h3>
+        <p>DVR, NVR, IP Cameras, PTZ Cameras and CCTV troubleshooting.</p>
+      </div>
 
-.btn{
-display:inline-block;
-background:#1388ee;
-color:#fff;
-padding:13px 23px;
-border-radius:7px;
-font-weight:800
-}
+      <div class="card">
+        <h3>Networking</h3>
+        <p>LAN networking, routers, switches, cabling and network configuration.</p>
+      </div>
 
-.btn:hover{background:#0874d1}
+      <div class="card">
+        <h3>Computer Solutions</h3>
+        <p>Computer installation, software setup, maintenance and troubleshooting.</p>
+      </div>
 
-.hero-art{
-font-size:125px;
-filter:drop-shadow(0 10px 25px #0006)
-}
+      <div class="card">
+        <h3>IT Installation</h3>
+        <p>New IT installations, system setup, repairs and technical support.</p>
+      </div>
 
-/* ABOUT */
-.about{padding:65px 0}
+      <div class="card">
+        <h3>Security Systems</h3>
+        <p>CCTV security solutions and modern surveillance systems.</p>
+      </div>
 
-.about-grid{
-display:grid;
-grid-template-columns:1.2fr 1fr;
-gap:55px;
-align-items:center
-}
+      <div class="card">
+        <h3>Technical Support</h3>
+        <p>Professional IT support for homes, shops and businesses.</p>
+      </div>
 
-.section-tag{
-color:#1683e8;
-letter-spacing:2px;
-font-size:12px;
-font-weight:800
-}
+    </div>
+  </section>
 
-h2{
-font-size:34px;
-line-height:1.2;
-margin:8px 0 14px
-}
+  <div class="contact">
+    <h2>Contact Asad Mirza</h2>
+    <p>Sheikhupura, Punjab, Pakistan</p>
 
-.about p{
-color:#607087;
-font-size:17px;
-max-width:620px
-}
+    <a class="whatsapp" href="https://wa.me/923274978570">
+      WhatsApp: 0327-4978570
+    </a>
+  </div>
 
-.features{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-border-left:1px solid #d9e2eb
-}
+  <footer>
+    © 2026 Asad Mirza IT Solution — All Rights Reserved
+  </footer>
 
-.feature{
-text-align:center;
-padding:10px 18px;
-border-right:1px solid #d9e2eb
-}
-
-.feature .icon{
-font-size:31px;
-color:#1288ef;
-margin-bottom:7px
-}
-
-.feature b{
-display:block;
-font-size:14px
-}
-
-/* SKILLS */
-.skills{
-background:#03234a;
-color:#fff;
-padding:62px 0
-}
-
-.skills-head{
-text-align:center;
-margin-bottom:28px
-}
-
-.skills h2{margin-top:7px}
-
-.skill-grid{
-display:grid;
-grid-template-columns:repeat(4,1fr);
-gap:18px
-}
-
-.skill{
-border:1px solid #168bea;
-border-radius:9px;
-padding:23px;
-background:#07345f
-}
-
-.skil
-```
+</body>
+</html>
