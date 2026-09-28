@@ -3,400 +3,530 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Asad Mirza IT Solution | IT, CCTV & Network Services</title>
+
 <meta name="description" content="Asad Mirza IT Solution - Professional IT, CCTV, networking and computer solutions in Sheikhupura, Punjab, Pakistan.">
 
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:Arial,Helvetica,sans-serif;background:#020b18;color:#f5f9ff;line-height:1.6}
-a{text-decoration:none;color:inherit}
-.container{width:min(1120px,92%);margin:auto}
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
 
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:#020b18;
+  color:#f5f9ff;
+  line-height:1.6;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+.container{
+  width:min(1120px,92%);
+  margin:auto;
+}
+
+/* NAVBAR */
 nav{
-position:sticky;
-top:0;
-z-index:50;
-background:#031225eF;
-border-bottom:1px solid #08a9ff
+  position:sticky;
+  top:0;
+  z-index:50;
+  background:#031225eF;
+  border-bottom:1px solid #08a9ff;
 }
 
 .nav{
-min-height:68px;
-display:flex;
-align-items:center;
-justify-content:space-between;
-gap:18px
+  min-height:68px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
 }
 
 .logo{
-font-size:22px;
-font-weight:900;
-color:white
+  font-size:22px;
+  font-weight:900;
+  color:white;
 }
 
-.logo span{color:#08b8ff}
+.logo span{
+  color:#08b8ff;
+}
 
 .menu{
-display:flex;
-gap:24px;
-font-weight:700;
-font-size:14px
+  display:flex;
+  gap:24px;
+  font-weight:700;
+  font-size:14px;
 }
 
-.menu a:hover{color:#08b8ff}
+.menu a:hover{
+  color:#08b8ff;
+}
 
 .wa{
-background:#16c765;
-padding:10px 16px;
-border-radius:9px;
-font-weight:800;
-color:white
+  background:#16c765;
+  padding:10px 16px;
+  border-radius:9px;
+  font-weight:800;
+  color:white;
 }
 
+/* HERO */
 .hero{
-background:radial-gradient(circle at 80% 35%,#063b78 0,#031a35 38%,#020b18 75%);
-border-bottom:1px solid #08a9ff
+  background:
+  radial-gradient(
+    circle at 80% 35%,
+    #063b78 0,
+    #031a35 38%,
+    #020b18 75%
+  );
+  border-bottom:1px solid #08a9ff;
 }
 
 .hero-inner{
-min-height:430px;
-display:flex;
-align-items:center;
-justify-content:space-between;
-gap:30px;
-padding:65px 0
+  min-height:430px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:30px;
+  padding:65px 0;
 }
 
-.hero-copy{max-width:650px}
+.hero-copy{
+  max-width:650px;
+}
 
 .eyebrow{
-color:#08b8ff;
-font-size:18px;
-font-weight:800;
-margin-bottom:8px
+  color:#08b8ff;
+  font-size:18px;
+  font-weight:800;
+  margin-bottom:8px;
 }
 
 h1{
-font-size:clamp(38px,6vw,64px);
-line-height:1.05;
-margin-bottom:16px
+  font-size:clamp(38px,6vw,64px);
+  line-height:1.05;
+  margin-bottom:16px;
 }
 
-h1 span,.section-title span{color:#08b8ff}
+h1 span,
+.section-title span{
+  color:#08b8ff;
+}
 
 .hero p{
-font-size:18px;
-color:#d6e6f7;
-max-width:620px;
-margin-bottom:25px
+  font-size:18px;
+  color:#d6e6f7;
+  max-width:620px;
+  margin-bottom:25px;
 }
 
 .hero-btn{
-display:inline-block;
-background:#16c765;
-color:white;
-padding:14px 22px;
-border-radius:9px;
-font-weight:900
+  display:inline-block;
+  background:#16c765;
+  color:white;
+  padding:14px 22px;
+  border-radius:9px;
+  font-weight:900;
 }
 
 .hero-art{
-font-size:110px;
-filter:drop-shadow(0 0 30px #008cff);
-text-align:center
+  font-size:110px;
+  filter:drop-shadow(0 0 30px #008cff);
+  text-align:center;
 }
 
+/* SECTIONS */
 section{
-padding:60px 0;
-border-bottom:1px solid #078ed4
+  padding:60px 0;
+  border-bottom:1px solid #078ed4;
 }
 
 .section-title{
-text-align:center;
-font-size:38px;
-margin-bottom:35px
+  text-align:center;
+  font-size:38px;
+  margin-bottom:35px;
 }
 
+/* SKILLS */
 .grid{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:18px
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
 }
 
 .card{
-background:linear-gradient(145deg,#071e38,#031225);
-border:1px solid #009eea;
-border-radius:14px;
-padding:24px;
-box-shadow:0 0 18px #008cff22
+  background:linear-gradient(145deg,#071e38,#031225);
+  border:1px solid #009eea;
+  border-radius:14px;
+  padding:24px;
+  box-shadow:0 0 18px #008cff22;
 }
 
 .card .icon{
-font-size:38px;
-margin-bottom:8px
+  font-size:38px;
+  margin-bottom:8px;
 }
 
 .card h3{
-color:#08b8ff;
-font-size:20px;
-margin-bottom:8px
+  color:#08b8ff;
+  font-size:20px;
+  margin-bottom:8px;
 }
 
-.card p{color:#d7e5f2}
+.card p{
+  color:#d7e5f2;
+}
 
+/* CERTIFICATES */
 .cert-grid{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:22px
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
 }
 
 .cert{
-background:#07182b;
-border:1px solid #38b9ff;
-border-radius:14px;
-padding:12px;
-text-align:center
+  background:#07182b;
+  border:1px solid #38b9ff;
+  border-radius:14px;
+  padding:12px;
+  text-align:center;
 }
 
 .cert img{
-width:100%;
-height:230px;
-object-fit:contain;
-background:white;
-border-radius:9px;
-display:block
+  width:100%;
+  height:230px;
+  object-fit:contain;
+  background:white;
+  border-radius:9px;
+  display:block;
 }
 
 .cert .fallback{
-height:230px;
-border-radius:9px;
-background:linear-gradient(135deg,#fff,#dbe9f8);
-color:#0a2340;
-display:flex;
-align-items:center;
-justify-content:center;
-font-weight:900;
-font-size:23px
+  height:230px;
+  border-radius:9px;
+  background:linear-gradient(135deg,#fff,#dbe9f8);
+  color:#0a2340;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:900;
+  font-size:23px;
 }
 
 .cert h3{
-margin:12px 0 5px;
-color:white
+  margin:12px 0 5px;
+  color:white;
 }
 
-.cert small{color:#8edcff}
+.cert small{
+  color:#8edcff;
+}
 
+/* CONTACT */
 .contact{
-text-align:center;
-background:linear-gradient(180deg,#062849,#031225)
+  text-align:center;
+  background:linear-gradient(180deg,#062849,#031225);
 }
 
 .contact p{
-font-size:18px;
-margin-bottom:20px;
-color:#d8e9f7
+  font-size:18px;
+  margin-bottom:20px;
+  color:#d8e9f7;
 }
 
 .contact .wa{
-display:inline-block;
-font-size:18px;
-padding:14px 24px
+  display:inline-block;
+  font-size:18px;
+  padding:14px 24px;
 }
 
+/* FOOTER */
 footer{
-text-align:center;
-padding:25px;
-color:#9db1c4;
-background:#020812
+  text-align:center;
+  padding:25px;
+  color:#9db1c4;
+  background:#020812;
 }
 
+/* MOBILE */
 @media(max-width:800px){
-.menu{display:none}
-.nav{justify-content:center}
-.hero-inner{
-flex-direction:column;
-text-align:center;
-padding:48px 0
-}
-.hero-art{font-size:75px}
-.grid,.cert-grid{grid-template-columns:1fr}
-.section-title{font-size:31px}
-.cert img,.cert .fallback{height:220px}
+
+  .menu{
+    display:none;
+  }
+
+  .nav{
+    justify-content:center;
+  }
+
+  .hero-inner{
+    flex-direction:column;
+    text-align:center;
+    padding:48px 0;
+  }
+
+  .hero-art{
+    font-size:75px;
+  }
+
+  .grid,
+  .cert-grid{
+    grid-template-columns:1fr;
+  }
+
+  .section-title{
+    font-size:31px;
+  }
+
+  .cert img,
+  .cert .fallback{
+    height:220px;
+  }
 }
 </style>
 </head>
 
 <body>
 
+<!-- NAVIGATION -->
 <nav>
-<div class="container nav">
+  <div class="container nav">
 
-<div class="logo">⚡ Asad <span>Mirza</span></div>
+    <div class="logo">
+      ⚡ Asad <span>Mirza</span>
+    </div>
 
-<div class="menu">
-<a href="#home">Home</a>
-<a href="#skills">Skills</a>
-<a href="#certificates">Certificates</a>
-<a href="#contact">Contact</a>
-</div>
+    <div class="menu">
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </div>
 
-<a class="wa"
-href="https://wa.me/923274978570?text=Assalam%20o%20Alaikum%2C%20mujhe%20IT%20services%20ke%20bare%20mein%20maloomat%20chahiye."
-target="_blank">
-☏ WhatsApp
-</a>
+    <a
+      class="wa"
+      href="https://api.whatsapp.com/send?phone=923274978570&text=Sir%2C%20how%20can%20I%20assist%20regarding%20the%20network%2C%20CCTV%2C%20hardware%2C%20and%20software%3F%20%F0%9F%98%8A"
+      target="_blank"
+      rel="noopener"
+    >
+      ☏ WhatsApp
+    </a>
 
-</div>
+  </div>
 </nav>
 
+
+<!-- HERO -->
 <header class="hero" id="home">
 
-<div class="container hero-inner">
+  <div class="container hero-inner">
 
-<div class="hero-copy">
+    <div class="hero-copy">
 
-<div class="eyebrow">Welcome to</div>
+      <div class="eyebrow">
+        Welcome to
+      </div>
 
-<h1>Asad Mirza <span>IT Solution</span></h1>
+      <h1>
+        Asad Mirza <span>IT Solution</span>
+      </h1>
 
-<p>IT Services • CCTV • Networking • Computer Solutions</p>
+      <p>
+        IT Services • CCTV • Networking • Computer Solutions
+      </p>
 
-<p>
-Providing professional IT solutions, reliable support and modern technology
-for your home, shop and business.
-</p>
+      <p>
+        Providing professional IT solutions, reliable support and modern
+        technology for your home, shop and business.
+      </p>
 
-<a class="hero-btn"
-href="https://wa.me/923274978570?text=Assalam%20o%20Alaikum%2C%20mujhe%20IT%20services%20ke%20bare%20mein%20maloomat%20chahiye."
-target="_blank">
-☏ Chat on WhatsApp
-</a>
+      <a
+        class="hero-btn"
+        href="https://api.whatsapp.com/send?phone=923274978570&text=Sir%2C%20how%20can%20I%20assist%20regarding%20the%20network%2C%20CCTV%2C%20hardware%2C%20and%20software%3F%20%F0%9F%98%8A"
+        target="_blank"
+        rel="noopener"
+      >
+        ☏ Chat on WhatsApp
+      </a>
 
-</div>
+    </div>
 
-<div class="hero-art">💻 📹 🌐</div>
+    <div class="hero-art">
+      💻 📹 🌐
+    </div>
 
-</div>
+  </div>
+
 </header>
 
+
+<!-- SKILLS -->
 <section id="skills">
 
-<div class="container">
+  <div class="container">
 
-<h2 class="section-title">MY <span>SKILLS</span></h2>
+    <h2 class="section-title">
+      MY <span>SKILLS</span>
+    </h2>
 
-<div class="grid">
+    <div class="grid">
 
-<div class="card">
-<div class="icon">📹</div>
-<h3>CCTV Installation</h3>
-<p>DVR, NVR, IP Cameras, PTZ Cameras and CCTV troubleshooting.</p>
-</div>
+      <div class="card">
+        <div class="icon">📹</div>
+        <h3>CCTV Installation</h3>
+        <p>
+          DVR, NVR, IP Cameras, PTZ Cameras and CCTV troubleshooting.
+        </p>
+      </div>
 
-<div class="card">
-<div class="icon">🌐</div>
-<h3>Networking</h3>
-<p>LAN networking, routers, switches, cabling and network configuration.</p>
-</div>
+      <div class="card">
+        <div class="icon">🌐</div>
+        <h3>Networking</h3>
+        <p>
+          LAN networking, routers, switches, cabling and network configuration.
+        </p>
+      </div>
 
-<div class="card">
-<div class="icon">🖥️</div>
-<h3>Computer Solutions</h3>
-<p>Computer installation, software setup, maintenance and troubleshooting.</p>
-</div>
+      <div class="card">
+        <div class="icon">🖥️</div>
+        <h3>Computer Solutions</h3>
+        <p>
+          Computer installation, software setup, maintenance and troubleshooting.
+        </p>
+      </div>
 
-<div class="card">
-<div class="icon">⚙️</div>
-<h3>IT Installation</h3>
-<p>New IT installations, system setup, repairs and technical support.</p>
-</div>
+      <div class="card">
+        <div class="icon">⚙️</div>
+        <h3>IT Installation</h3>
+        <p>
+          New IT installations, system setup, repairs and technical support.
+        </p>
+      </div>
 
-<div class="card">
-<div class="icon">🛡️</div>
-<h3>Security Systems</h3>
-<p>CCTV security solutions and modern surveillance systems.</p>
-</div>
+      <div class="card">
+        <div class="icon">🛡️</div>
+        <h3>Security Systems</h3>
+        <p>
+          CCTV security solutions and modern surveillance systems.
+        </p>
+      </div>
 
-<div class="card">
-<div class="icon">🔧</div>
-<h3>Technical Support</h3>
-<p>Professional IT support for homes, shops and businesses.</p>
-</div>
+      <div class="card">
+        <div class="icon">🔧</div>
+        <h3>Technical Support</h3>
+        <p>
+          Professional IT support for homes, shops and businesses.
+        </p>
+      </div>
 
-</div>
-</div>
+    </div>
+
+  </div>
+
 </section>
 
+
+<!-- CERTIFICATES -->
 <section id="certificates">
 
-<div class="container">
+  <div class="container">
 
-<h2 class="section-title">MY <span>CERTIFICATES</span></h2>
+    <h2 class="section-title">
+      MY <span>CERTIFICATES</span>
+    </h2>
 
-<div class="cert-grid">
+    <div class="cert-grid">
 
-<div class="cert">
+      <div class="cert">
 
-<img
-src="img1.png"
-alt="Asad Mirza Certificate 1"
-onerror="this.outerHTML='<div class=&quot;fallback&quot;>CERTIFICATE 1</div>'">
+        <img
+          src="img1.png"
+          alt="Asad Mirza Certificate 1"
+          onerror="this.outerHTML='<div class=&quot;fallback&quot;>CERTIFICATE 1</div>'"
+        >
 
-<h3>Certificate 1</h3>
-<small>Professional Certificate</small>
+        <h3>Certificate 1</h3>
+        <small>Professional Certificate</small>
 
-</div>
+      </div>
 
-<div class="cert">
 
-<img
-src="img2.png"
-alt="Asad Mirza Certificate 2"
-onerror="this.outerHTML='<div class=&quot;fallback&quot;>CERTIFICATE 2</div>'">
+      <div class="cert">
 
-<h3>Certificate 2</h3>
-<small>Professional Certificate</small>
+        <img
+          src="img2.png"
+          alt="Asad Mirza Certificate 2"
+          onerror="this.outerHTML='<div class=&quot;fallback&quot;>CERTIFICATE 2</div>'"
+        >
 
-</div>
+        <h3>Certificate 2</h3>
+        <small>Professional Certificate</small>
 
-<div class="cert">
+      </div>
 
-<img
-src="img3.png"
-alt="Asad Mirza Certificate 3"
-onerror="this.outerHTML='<div class=&quot;fallback&quot;>CERTIFICATE 3</div>'">
 
-<h3>Certificate 3</h3>
-<small>Professional Certificate</small>
+      <div class="cert">
 
-</div>
+        <img
+          src="img3.png"
+          alt="Asad Mirza Certificate 3"
+          onerror="this.outerHTML='<div class=&quot;fallback&quot;>CERTIFICATE 3</div>'"
+        >
 
-</div>
-</div>
+        <h3>Certificate 3</h3>
+        <small>Professional Certificate</small>
+
+      </div>
+
+    </div>
+
+  </div>
+
 </section>
 
+
+<!-- CONTACT -->
 <section class="contact" id="contact">
 
-<div class="container">
+  <div class="container">
 
-<h2 class="section-title">
-Contact <span>Asad Mirza</span>
-</h2>
+    <h2 class="section-title">
+      Contact <span>Asad Mirza</span>
+    </h2>
 
-<p>📍 Sheikhupura, Punjab, Pakistan</p>
+    <p>
+      📍 Sheikhupura, Punjab, Pakistan
+    </p>
 
-<a class="wa"
-href="https://wa.me/923274978570?text=Assalam%20o%20Alaikum%2C%20mujhe%20IT%20services%20ke%20bare%20mein%20maloomat%20chahiye."
-target="_blank">
-☏ WhatsApp: 0327-4978570
-</a>
+    <a
+      class="wa"
+      href="https://api.whatsapp.com/send?phone=923274978570&text=Sir%2C%20how%20can%20I%20assist%20regarding%20the%20network%2C%20CCTV%2C%20hardware%2C%20and%20software%3F%20%F0%9F%98%8A"
+      target="_blank"
+      rel="noopener"
+    >
+      ☏ WhatsApp: 0327-4978570
+    </a>
 
-</div>
+  </div>
+
 </section>
 
+
+<!-- FOOTER -->
 <footer>
-© 2026 Asad Mirza IT Solution — All Rights Reserved
+  © 2026 Asad Mirza IT Solution — All Rights Reserved
 </footer>
 
 </body>
