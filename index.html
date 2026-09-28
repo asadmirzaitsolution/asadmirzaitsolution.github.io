@@ -35,7 +35,14 @@ header{backdrop-filter:blur(12px);background:rgba(255,255,255,.94)}
 .hero:after{content:"";position:absolute;width:330px;height:330px;border-radius:50%;background:#20a5ff10;right:-140px;bottom:-190px}
 .hero-inner{position:relative;z-index:1}
 .hero-copy{animation:fadeUp .8s ease both}
-.hero-image{position:relative;overflow:hidden}
+.hero-image{
+    position:relative;
+    overflow:hidden;
+    background-size:contain;
+    background-position:center center;
+    background-repeat:no-repeat;
+    min-height:520px;
+}
 .hero-image:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,27,61,.15),transparent 45%,rgba(3,27,61,.08))}
 .btn{transition:transform .2s ease,box-shadow .2s ease}
 .btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px #0002}
