@@ -6,23 +6,39 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Asad Mirza IT Solution",
-  "alternateName": "AsadMirzaITSolution",
-  "url": "https://asadmirzaitsolution.github.io/",
-  "logo": "https://asadmirzaitsolution.github.io/favicon.png",
-  "description": "Asad Mirza IT Solution provides IT, CCTV, networking, hardware and software services in Sheikhupura, Pakistan.",
-  "telephone": "+923274978570",
-  "areaServed": "Sheikhupura, Punjab, Pakistan"
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Asad Mirza IT Solution",
-  "alternateName": "AsadMirzaITSolution",
-  "url": "https://asadmirzaitsolution.github.io/"
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://asadmirzaitsolution.github.io/#business",
+      "name": "Asad Mirza IT Solution",
+      "alternateName": "AsadMirzaITSolution",
+      "url": "https://asadmirzaitsolution.github.io/",
+      "logo": "https://asadmirzaitsolution.github.io/favicon.png",
+      "image": "https://asadmirzaitsolution.github.io/favicon.png",
+      "description": "Asad Mirza IT Solution provides professional IT, CCTV, networking, hardware and software services in Sheikhupura, Pakistan.",
+      "telephone": "+923274978570",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Sheikhupura",
+        "addressRegion": "Punjab",
+        "addressCountry": "PK"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Sheikhupura"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://asadmirzaitsolution.github.io/#website",
+      "url": "https://asadmirzaitsolution.github.io/",
+      "name": "Asad Mirza IT Solution",
+      "alternateName": "AsadMirzaITSolution",
+      "publisher": {
+        "@id": "https://asadmirzaitsolution.github.io/#business"
+      }
+    }
+  ]
 }
 </script>
 <link rel="icon" type="image/png" href="favicon.png">
