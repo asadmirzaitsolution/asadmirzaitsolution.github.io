@@ -56,8 +56,8 @@ section{padding:68px 0}.section-head{text-align:center;margin-bottom:38px}.tag{c
 @media(max-width:430px){.cards{grid-template-columns:1fr}.hero-image{min-height:230px}.buttons .btn{width:100%;text-align:center}}
 
 /* Animated 3D logo */
-.brand-logo-video{width:72px;height:58px;object-fit:cover;border-radius:12px;display:block;background:#031b3d;box-shadow:0 0 18px rgba(70,130,255,.28);border:1px solid rgba(80,160,255,.25)}
-@media(max-width:700px){.brand-logo-video{width:62px;height:50px;border-radius:10px}.brand-title{font-size:18px}.brand-sub{font-size:10px}}
+.brand-logo-video{width:110px;height:62px;object-fit:contain;border-radius:12px;display:block;background:#031b3d;box-shadow:0 0 18px rgba(70,130,255,.28);border:1px solid rgba(80,160,255,.25)}
+@media(max-width:700px){.brand-logo-video{width:92px;height:58px;object-fit:contain;border-radius:10px}.brand-title{font-size:18px}.brand-sub{font-size:10px}}
 
 /* Second continuous intro video */
 .second-intro-video-wrap{width:100%;background:#031b3d;display:flex;justify-content:center;align-items:center;overflow:hidden;}
@@ -210,4 +210,16 @@ section{padding:68px 0}.section-head{text-align:center;margin-bottom:38px}.tag{c
 
 <!-- Adsterra Social Bar -->
 <script data-cfasync="false" src="https://bicea.org/14/de06283710a0d7fd8781be474307bc5c"></script>
+<script>
+(function(){
+  function startVideos(){
+    document.querySelectorAll('video').forEach(function(v){
+      v.muted=true; v.setAttribute('muted',''); v.playsInline=true;
+      var p=v.play(); if(p && p.catch) p.catch(function(){});
+    });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',startVideos); else startVideos();
+  document.addEventListener('visibilitychange',function(){ if(!document.hidden) startVideos(); });
+})();
+</script>
 </body></html>
